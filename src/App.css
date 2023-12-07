@@ -129,3 +129,10 @@ tr:hover {
   color: #ffffff;
   font: italic;
 }
+
+
+@media screen and (max-width: 500px) {
+  .className{
+    margin: 1px 2px 3px 4px;
+  }
+}

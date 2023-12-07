@@ -1,6 +1,5 @@
 import React from "react";
-import FacebookIcon from "../components/FacebookIcon.jpg";
-import TelegramIcon from "../components/TelegramIcon.jpg";
+import { FacebookIcon, TelegramIcon } from "../assets";
 
 export default function ContactImgs() {
   return (
