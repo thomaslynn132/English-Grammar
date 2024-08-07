@@ -2,10 +2,10 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import NavBar from "./components/Navbar";
-import Notes from "./pages/Notes/Notes";
-import Exercises from "./pages/Exercises/Exercise";
+import { Notes, Exercises } from './pages';
 import Footer from "./components/Footer";
 import Auth from "./components/auth";
+
 const App = () => {
   return (
     <>
